@@ -1,0 +1,53 @@
+git init
+
+Touch README.md 
+Nano README.md
+
+Git add .
+
+Git commit -m ”Initial commit”
+
+Git checkout -b feature1
+
+nano README.md
+Git add README.md
+git commit -m "Add dog, switched moose to mouse"
+
+Git checkout main
+Nano README.md
+Git add README.md
+Git commit  -m ”switched moose to mahmut”
+
+Git merge feature1
+Nano README.md
+
+Git add README.md
+Git commit -m ”Merge feature1 with main”
+
+Git status
+
+Git tag extinct
+
+git reset --hard HEAD~1
+
+git branch feature2
+
+Nano README.md
+Git add README.md
+Git commit -m ”Capital letter on animals”
+
+Git checkout feature2
+
+Touch fix1.txt
+Git add fix1.txt
+Git commit -m ”Add fix1.txt”
+
+Touch fix2.txt
+Git add fix2.txt
+Git commit -m ”Add fix2.txt”
+
+Ls
+
+Git reflog
+Git cherry-pick 4ea7a6f
+
