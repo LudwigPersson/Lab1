@@ -62,3 +62,4 @@ git tag -a v1.0 -m "Version 1.0"
 git push origin v1.0
 
 git rebase -i HEAD~2
+git checkout -b feature3
