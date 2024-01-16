@@ -52,3 +52,13 @@ Git reflog
 Git cherry-pick 4ea7a6f
 
 git remote add origin https://github.com/LudwigPersson/Lab1.git
+git push -u origin main
+
+Touch .gitignore
+Nano .gitignore
+
+git add .gitignore
+git tag -a v1.0 -m "Version 1.0"
+git push origin v1.0
+
+git rebase -i HEAD~2
